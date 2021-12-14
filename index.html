@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Js</title>
+  </head>
+  <body>
+    <h1 id="result">Raffler</h1>
+    <div class="sortPeople">
+      <div class="enterings">
+        <h2>Type the names to draw!</h2>
+        <input
+          type="text"
+          id="inputPeople"
+          placeholder="Type the names to be drawn"
+        />
+        <div class="buttons">
+          <button id="drawPeople">Draw</button>
+          <button id="add">Add</button>
+        </div>
+      </div>
+      <div class="nameList" id="names"></div>
+    </div>
+    <div class="sortNumber unselected">
+      <div class="enterings">
+        <h2>Type a number to draw a number</h2>
+        <input type="text" id="inputNumber" placeholder="0 to" />
+        <div class="buttons">
+          <button id="drawNumber">Draw</button>
+        </div>
+      </div>
+    </div>
+
+    <button id="switch">Switch Mode</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
