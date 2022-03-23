@@ -1,8 +1,4 @@
-const namesToBeSorted = [
-  // { name: 'Kaique', status: '' },
-  // { name: 'lucas', status: '' },
-  // { name: 'Matheus', status: '' }
-]
+const namesToBeSorted = []
 
 function addNames() {
   const name = document.querySelector('#inputPeople').value
@@ -93,5 +89,22 @@ document.getElementById('names', nameEvent).addEventListener('click', nameEvent)
 document.querySelector('#drawNumber').addEventListener('click', drawNumber)
 document.querySelector('#drawPeople').addEventListener('click', drawPeople)
 document.querySelector('#switch').addEventListener('click', switchMode)
+
+document.addEventListener('keydown', event => {
+  const inputPeople = document.querySelector('#inputPeople')
+  if (
+    event.key === 'Enter' &&
+    inputPeople.value != '' &&
+    document.querySelector('.sortNumber').classList.contains('unselected')
+  ) {
+    addNames()
+  } else if (
+    event.key === 'Enter' &&
+    inputNumber.value != '' &&
+    document.querySelector('.sortPeople').classList.contains('unselected')
+  ) {
+    drawNumber()
+  }
+})
 
 getNames()
