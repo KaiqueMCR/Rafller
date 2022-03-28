@@ -2,12 +2,12 @@
 
 <div align="center">
 
-![GitHub top language](https://img.shields.io/github/languages/top/KaiqueMCR/BBQ-Meter?color=%20%23c69%20)
-![GitHub](https://img.shields.io/github/license/KaiqueMCR/BBQ-MEter)
-![GitHub repo size](https://img.shields.io/github/repo-size/KaiqueMCR/BBQ-Meter)
-![GitHub issues](https://img.shields.io/github/issues/KaiqueMCR/BBQ-Meter)
-![GitHub forks](https://img.shields.io/github/forks/KaiqueMCR/BBQ-Meter)
-![GitHub stars](https://img.shields.io/github/stars/KaiqueMCR/BBQ-Meter)
+![GitHub top language](https://img.shields.io/github/languages/top/KaiqueMCR/Rafller?color=%23F0DB4F)
+![GitHub](https://img.shields.io/github/license/KaiqueMCR/Rafller)
+![GitHub repo size](https://img.shields.io/github/repo-size/KaiqueMCR/Rafller)
+![GitHub issues](https://img.shields.io/github/issues/KaiqueMCR/Rafller)
+![GitHub forks](https://img.shields.io/github/forks/KaiqueMCR/Rafller)
+![GitHub stars](https://img.shields.io/github/stars/KaiqueMCR/Rafller)
 
 </div>
 
